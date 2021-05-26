@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-05-26 02:09:03
+ * @LastEditTime: 2021-05-27 04:53:15
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -16,8 +16,14 @@ export default [
             {
                 url: 'https://dfinity.org/',
                 logo: 'assets/images/logos/dfinity.png',
-                title: 'Dfinity',
-                desc: 'Dfinity 官方网站'
+                title: 'DFINITY 官网',
+                desc: 'DFINITY Foundation | Internet Compute'
+            },
+            {
+                url: 'https://internetcomputer.org/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'internet computer association',
+                desc: 'https://internetcomputer.org/'
             },
             // {
             //     url: 'https://behance.net/',
@@ -83,21 +89,142 @@ export default [
         ]
     },
     {
+        name: '钱包',
+        en_name: 'Wallet',
+        icon: 'linecons-wallet',
+        web: [
+            {
+                url: 'https://nns.ic0.app/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'NNS',
+                desc: 'Dfinity 官方钱包、治理投票工具'
+            },
+        ]
+    },
+    {
+        name: '浏览器',
+        en_name: 'expoler',
+        icon: 'linecons-globe',
+        web: [
+            {
+                url: 'https://dashboard.internetcomputer.org/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'internet computer network status',
+                desc: 'https://dashboard.internetcomputer.org/'
+            },
+            {
+                url: 'https://www.dfinityexplorer.org/#/',
+                logo: 'assets/images/logos/Dfinity Explorer.jpg',
+                title: 'Dfinity Explorer',
+                desc: '可以查看 ICP 主网运行情况，Data center 情况'
+            },
+        ]
+    },
+    {
+        name: 'Dapp',
+        en_name: 'Dapp',
+        icon: 'linecons-cloud',
+        web: [
+            {
+                url: 'http://dscvr.one/',
+                logo: 'assets/images/logos/C7jD4rir_400x400.jpeg',
+                title: 'DSCVR',
+                desc: 'a completely decentralized social content platform running on the #InternetComputer ... beta preview started!'
+            },
+            {
+                url: 'https://7e6iv-biaaa-aaaaf-aaada-cai.ic0.app/',
+                logo: 'assets/images/logos/OpenChat.jpg',
+                title: 'open chat',
+                desc: '基于 dfinity 的去中心化聊天应用'
+            },
+            {
+                url: 'https://distrikt.app/',
+                logo: 'assets/images/logos/distrikt.png',
+                title: 'Distrikt',
+                desc: '一个去中心化的、专业的社交媒体网络，让用户拥有并控制自己的身份和数据。'
+            },
+            {
+                url: 'https://github.com/dfinity/cancan',
+                logo: 'assets/images/logos/CanCan.jpg',
+                title: 'CanCan',
+                desc: 'https://github.com/dfinity/cancan'
+            },
+            {
+                url: 'https://github.com/esensconsulting/KanbanIC',
+                logo: 'assets/images/logos/kaban.png',
+                title: 'Kaban',
+                desc: 'https://github.com/esensconsulting/KanbanIC'
+            }
+        ]
+    },
+    {
+        name: 'Defi',
+        en_name: 'Defi',
+        icon: 'linecons-money',
+        web: [
+            {
+                url: 'https://sailfish.app/',
+                logo: 'assets/images/logos/SailFish.jpg',
+                title: 'Sailfish',
+                desc: 'https://sailfish.app/'
+            },
+            {
+                url: 'https://dfinance.ai/',
+                logo: 'assets/images/logos/DFinance.jpg',
+                title: 'DFinance',
+                desc: 'https://dfinance.ai/'
+            },
+            
+        ]
+    },
+    {
+        name: '工具',
+        en_name: 'Tool',
+        icon: 'fa fa-wrench',
+        web: [
+            {
+                url: 'https://networknervoussystem.com/',
+                logo: 'assets/images/logos/oZzmdCx__400x400.jpeg',
+                title: 'ICP Neuron Calculator',
+                desc: 'https://networknervoussystem.com/'
+            },
+            {
+                url: 'https://fleek.co/',
+                logo: 'assets/images/logos/fleek.png',
+                title: 'Fleek',
+                desc: 'https://fleek.co/'
+            },
+            
+        ]
+    },
+    {
         name: '社区',
         en_name: 'Information',
         icon: 'linecons-doc',
         web: [
-            {
-                url: 'https://icpdao.netlify.app/',
-                logo: 'assets/images/logos/icpdao-1.png',
-                title: 'ICPDAO',
-                desc: '致力于为用户提供最新的 Dfinity 生态资讯、帮助培养互联网计算机开发者、组织 Hackathon 等活动、协助 Dfinity 生态创业者发现价值、抓住机遇，推动互联网计算机的范式转变。'
-            },
+            // {
+            //     url: 'https://icpdao.netlify.app/',
+            //     logo: 'assets/images/logos/icpdao-1.png',
+            //     title: 'ICPDAO',
+            //     desc: '致力于为用户提供最新的 Dfinity 生态资讯、帮助培养互联网计算机开发者、组织 Hackathon 等活动、协助 Dfinity 生态创业者发现价值、抓住机遇，推动互联网计算机的范式转变。'
+            // },
             {
                 url: 'https://forum.icpfans.xyz/',
                 logo: 'assets/images/logos/icpfans.png',
                 title: 'ICPFANS',
                 desc: 'Dfinity 中文技术社区'
+            },
+            {
+                url: 'https://twitter.com/DfinityClub',
+                logo: 'assets/images/logos/RLdVLoWw_400x400.jpeg',
+                title: 'Dfinity Club',
+                desc: 'https://twitter.com/DfinityClub'
+            },
+            {
+                url: 'https://icpleague.com/',
+                logo: 'assets/images/logos/Icp League.jpg',
+                title: 'ICP League',
+                desc: 'https://icpleague.com'
             },
             // {
             //     url: 'https://www.digitaling.com/',
@@ -160,6 +287,26 @@ export default [
             //     title: '优阁网',
             //     desc: 'UI设计师学习交流社区'
             // }
+        ]
+    },
+    {
+        name: '教育',
+        en_name: 'Tool',
+        icon: 'linecons-graduation-cap',
+        web: [
+            {
+                url: 'https://internetcomputer.org/education',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'Internet Computer Education',
+                desc: 'https://internetcomputer.org/education'
+            },
+            {
+                url: 'https://www.icp.report/',
+                logo: 'assets/images/logos/Dfinity SCAN.jpg',
+                title: 'DFINITY SCAN',
+                desc: 'https://www.icp.report'
+            },
+            
         ]
     },
     // {
