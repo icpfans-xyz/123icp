@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-05-25 22:56:49
+ * @LastEditTime: 2021-05-27 16:52:05
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /oms-ux/Users/chenglei/work/123icp/src/components/WebItem.vue
+-->
 <template>
     <div>
         <h4 class="text-gray">
@@ -10,13 +18,13 @@
 
                     <div class="xe-comment-entry">
                         <a class="xe-user-img">
-                            <img :src="web.logo" class="lozad img-circle" width="40">
+                            <img :src="web.logo" class="lozad img-circle" width="40" height="40">
                         </a>
                         <div class="xe-comment">
                             <a href="#" class="xe-user-name overflowClip_1">
-                                <strong>{{web.title}}</strong>
+                                <strong style="font-size: 18px;">{{web.title}}</strong>
                             </a>
-                            <p class="overflowClip_2">{{web.desc}}</p>
+                            <p class="overflowClip_2" style="font-size: 14px;">{{web.desc}}</p>
                         </div>
                     </div>
                 </div>

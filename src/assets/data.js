@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-05-27 13:53:16
+ * @LastEditTime: 2021-05-27 17:25:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -21,7 +21,7 @@ export default [
             },
             {
                 url: 'https://internetcomputer.org/',
-                logo: 'assets/images/logos/dfinity.png',
+                logo: 'assets/images/logos/ICA.png',
                 title: 'internet computer association',
                 desc: 'https://internetcomputer.org'
             },
@@ -108,7 +108,7 @@ export default [
         web: [
             {
                 url: 'https://dashboard.internetcomputer.org/',
-                logo: 'assets/images/logos/dfinity.png',
+                logo: 'assets/images/logos/ICA.png',
                 title: 'internet computer network status',
                 desc: 'https://dashboard.internetcomputer.org'
             },
@@ -134,7 +134,7 @@ export default [
             {
                 url: 'https://7e6iv-biaaa-aaaaf-aaada-cai.ic0.app/',
                 logo: 'assets/images/logos/OpenChat.jpg',
-                title: 'open chat',
+                title: 'Open Chat',
                 desc: '基于 dfinity 的去中心化聊天应用'
             },
             {

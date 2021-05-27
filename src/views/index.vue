@@ -25,14 +25,14 @@
                 </header>
                 <!-- 侧边栏 -->
                 <ul id="main-menu" class="main-menu">
-                    <li v-for="(menu, idx) in items" :key="idx">
-                        <a :href="'#'+transName(menu)" class="smooth" @click="moveSlow">
+                    <li v-for="(menu, idx) in items" :key="idx + 'item'">
+                        <a :href="'#'+transName(menu)" class="smooth" @click="moveSlow" style="font-size: 14px;">
                             <i :class="menu.icon"></i>
                             <span class="title">{{transName(menu)}}</span>
                         </a>
                         <ul v-if="menu.children">
                             <li v-for="(submenu, idx) in menu.children" :key="idx">
-                                <a :href="'#'+transName(submenu)" class="smooth" @click="moveSlow">
+                                <a :href="'#'+transName(submenu)" class="smooth" @click="moveSlow" style="font-size: 14px;">
                                     <span class="title">{{transName(submenu)}}</span>
                                     <span v-show="submenu.is_hot"
                                         class="label label-pink pull-right hidden-collapsed">Hot</span>
