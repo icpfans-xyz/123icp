@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-05-27 04:53:15
+ * @LastEditTime: 2021-05-27 13:53:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -23,7 +23,7 @@ export default [
                 url: 'https://internetcomputer.org/',
                 logo: 'assets/images/logos/dfinity.png',
                 title: 'internet computer association',
-                desc: 'https://internetcomputer.org/'
+                desc: 'https://internetcomputer.org'
             },
             // {
             //     url: 'https://behance.net/',
@@ -110,7 +110,7 @@ export default [
                 url: 'https://dashboard.internetcomputer.org/',
                 logo: 'assets/images/logos/dfinity.png',
                 title: 'internet computer network status',
-                desc: 'https://dashboard.internetcomputer.org/'
+                desc: 'https://dashboard.internetcomputer.org'
             },
             {
                 url: 'https://www.dfinityexplorer.org/#/',
@@ -166,13 +166,13 @@ export default [
                 url: 'https://sailfish.app/',
                 logo: 'assets/images/logos/SailFish.jpg',
                 title: 'Sailfish',
-                desc: 'https://sailfish.app/'
+                desc: 'https://sailfish.app'
             },
             {
                 url: 'https://dfinance.ai/',
                 logo: 'assets/images/logos/DFinance.jpg',
                 title: 'DFinance',
-                desc: 'https://dfinance.ai/'
+                desc: 'https://dfinance.ai'
             },
             
         ]
@@ -186,13 +186,13 @@ export default [
                 url: 'https://networknervoussystem.com/',
                 logo: 'assets/images/logos/oZzmdCx__400x400.jpeg',
                 title: 'ICP Neuron Calculator',
-                desc: 'https://networknervoussystem.com/'
+                desc: 'https://networknervoussystem.com'
             },
             {
                 url: 'https://fleek.co/',
                 logo: 'assets/images/logos/fleek.png',
                 title: 'Fleek',
-                desc: 'https://fleek.co/'
+                desc: 'https://fleek.co'
             },
             
         ]
