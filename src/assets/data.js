@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-05-27 17:25:28
+ * @LastEditTime: 2021-05-27 17:44:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -296,7 +296,7 @@ export default [
         web: [
             {
                 url: 'https://internetcomputer.org/education',
-                logo: 'assets/images/logos/dfinity.png',
+                logo: 'assets/images/logos/ICA.png',
                 title: 'Internet Computer Education',
                 desc: 'https://internetcomputer.org/education'
             },
