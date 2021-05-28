@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-25 22:56:49
- * @LastEditTime: 2021-05-29 01:21:02
+ * @LastEditTime: 2021-05-29 01:23:56
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/components/Footer.vue
@@ -54,7 +54,7 @@
             <div class="go-up">
                 <a href="#" rel="go-top"><i class="fa-angle-up"></i></a>
             </div>
-            <a href="https://github.com/icpfans-xyz/123icp/issues" type="button" target="_blank"
+            <a href="https://github.com/icpfans-xyz/icp123/issues" type="button" target="_blank"
                 class="btn btn-xs btn-warning btn-inline-block" style="float: right;margin-right: 15px; width: 100px;">提交更多作品</a>
         </div>
     </footer>
