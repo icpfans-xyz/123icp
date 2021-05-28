@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-25 22:56:49
- * @LastEditTime: 2021-05-29 00:52:51
+ * @LastEditTime: 2021-05-29 01:21:02
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/components/Footer.vue
@@ -18,7 +18,7 @@
             <!-- 版权信息 -->
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="20"
                 role="img" aria-label="Dfinity ∞: deployed">
-                <a xlink:href="https://dashboard.internetcomputer.org/" target="_blank">
+                <a xlink:href="https://rqmco-gyaaa-aaaad-qaclq-cai.raw.ic0.app/" target="_blank">
                     <title>Dfinity ∞: deployed</title>
                     <linearGradient id="s" x2="0" y2="100%">
                         <stop offset="0" stop-color="#bbb" stop-opacity=".1"></stop>
@@ -46,7 +46,7 @@
                 </a>
             </svg>
             <div class="footer-text" style="margin-right: 15px;">
-                &copy; 2021 Power By
+                &copy; 2021 Powered By 
                 <a href="https://icpfans.xyz" target="_blank"><strong>ICPFans</strong></a>
                 <!-- design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> -->
             </div>
