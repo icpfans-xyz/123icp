@@ -5,14 +5,15 @@
                 <header class="logo-env">
                     <!-- logo -->
                     <div class="logo">
-                        <div style="">123ICP</div>
-                        <p style="font-size: 14px;color: #eee;">Dfinity 生态资源导航</p>
-                        <!-- <a href="#" class="logo-expanded">
-                            <img src="../assets/images/logo@2x.png" width="100%" alt="" />
+                        <!-- <div style="">123ICP</div> -->
+                        <!-- <p style="font-size: 14px;color: #eee;">Dfinity 生态导航</p> -->
+                        <a href="#" class="logo-expanded">
+                            <img src="../assets/images/icp123_dark.png" width="100" alt="" />
                         </a>
                         <a href="#" class="logo-collapsed">
-                            <img src="../assets/images/logo-collapsed@2x.png" width="40" alt="" />
-                        </a> -->
+                            <img src="../assets/images/icp123_v_dark.png" width="40" alt="" />
+                        </a>
+                        <p class="logo-desc" style="font-size: 14px;color: #eee;">Dfinity 生态导航</p>
                     </div>
                     <div class="mobile-menu-toggle visible-xs">
                         <a href="#" data-toggle="user-info-menu">
@@ -94,7 +95,6 @@
                     <WebItem :item="subItem" :transName="transName" />
                 </div>
             </div>
-
             <Footer />
         </div>
     </div>
@@ -142,4 +142,9 @@ export default {
 </script>
 
 <style>
+@media screen and (min-width: 768px) {
+    .sidebar-menu.collapsed .logo-desc {
+        display: none;
+    }
+}
 </style>
