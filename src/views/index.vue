@@ -26,13 +26,13 @@
                 <!-- 侧边栏 -->
                 <ul id="main-menu" class="main-menu">
                     <li v-for="(menu, idx) in items" :key="idx + 'item'">
-                        <a :href="'#'+transName(menu)" class="smooth" @click="moveSlow" style="font-size: 14px;">
+                        <a v-if="idx !== 0" :href="'#'+transName(menu)" class="smooth" @click="moveSlow" style="font-size: 16px; border: 0">
                             <i :class="menu.icon"></i>
                             <span class="title">{{transName(menu)}}</span>
                         </a>
                         <ul v-if="menu.children">
                             <li v-for="(submenu, idx) in menu.children" :key="idx">
-                                <a :href="'#'+transName(submenu)" class="smooth" @click="moveSlow" style="font-size: 14px;">
+                                <a :href="'#'+transName(submenu)" class="smooth" @click="moveSlow" style="font-size: 16px;">
                                     <span class="title">{{transName(submenu)}}</span>
                                     <span v-show="submenu.is_hot"
                                         class="label label-pink pull-right hidden-collapsed">Hot</span>
@@ -58,6 +58,11 @@
                     <li class="hidden-sm hidden-xs">
                         <a href="#" data-toggle="sidebar"><i class="fa-bars"></i></a>
                     </li>
+                </ul>
+                <ul class="user-info-menu right-links list-inline list-unstyled">
+                    <!-- <li class="hidden-sm hidden-xs">
+                        <a href="#" data-toggle="sidebar"><i class="fa-bars"></i></a>
+                    </li> -->
                     <li class="dropdown hover-line language-switcher">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img :src="lang.flag" /> {{ lang.name }}
@@ -72,13 +77,13 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="user-info-menu right-links list-inline list-unstyled">
+                <!-- <ul class="user-info-menu right-links list-inline list-unstyled">
                     <li class="hidden-sm hidden-xs">
                         <a href="https://github.com/" target="_blank">
                             <i class="fa-github"></i> GitHub
                         </a>
                     </li>
-                </ul>
+                </ul> -->
             </nav>
 
             <div v-for="(item, idx) in items" :key="idx">

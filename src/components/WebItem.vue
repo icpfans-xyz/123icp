@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-25 22:56:49
- * @LastEditTime: 2021-05-27 16:52:05
+ * @LastEditTime: 2021-05-28 15:17:31
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/123icp/src/components/WebItem.vue
@@ -9,12 +9,12 @@
 <template>
     <div>
         <h4 class="text-gray">
-            <i class="linecons-tag" :id="transName(item)"></i>{{transName(item)}}
+            <i class="" :id="transName(item)"></i>{{transName(item)}}
         </h4>
         <div class="row">
             <div class="col-sm-3" v-for="(web, idx) in item.web" :key="idx">
                 <div class="xe-widget xe-conversations box2 label-info" title="" @click="openweb(web.url)"
-                    data-toggle="tooltip" data-placement="bottom" :data-original-title="web.url">
+                    data-toggle="tooltip" data-placement="bottom" :data-original-title="web.url" style="border-radius: 6px;">
 
                     <div class="xe-comment-entry">
                         <a class="xe-user-img">
@@ -22,7 +22,7 @@
                         </a>
                         <div class="xe-comment">
                             <a href="#" class="xe-user-name overflowClip_1">
-                                <strong style="font-size: 18px;">{{web.title}}</strong>
+                                <strong style="font-size: 16px;font-weight: 500;">{{web.title}}</strong>
                             </a>
                             <p class="overflowClip_2" style="font-size: 14px;">{{web.desc}}</p>
                         </div>
