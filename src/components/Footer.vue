@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-25 22:56:49
- * @LastEditTime: 2021-05-29 01:23:56
+ * @LastEditTime: 2021-05-29 16:13:05
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/components/Footer.vue
