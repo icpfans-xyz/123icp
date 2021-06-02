@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-05-28 15:10:03
+ * @LastEditTime: 2021-06-02 15:32:09
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -164,6 +164,18 @@ export default [
                 logo: 'assets/images/logos/Icp League.jpg',
                 title: 'ICP League',
                 desc: 'icpleague.com'
+            },
+            {
+                url: 'http://dfinitynft.com/',
+                logo: 'assets/images/logos/dfinityNFT.png',
+                title: 'DfinityNFT',
+                desc: 'dfinitynft.com'
+            },
+            {
+                url: 'https://twitter.com/DfinityShenZhen',
+                logo: 'assets/images/logos/unnamed.png',
+                title: 'DfinitySZ',
+                desc: 'twitter.com/DfinityShenZhen'
             },
         ]
     },
