@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-06-02 15:32:09
+ * @LastEditTime: 2021-06-03 16:42:19
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -93,6 +93,12 @@ export default [
                 logo: 'assets/images/logos/kaban.png',
                 title: 'Kaban',
                 desc: 'github.com/esensconsulting/KanbanIC'
+            },
+            {
+                url: 'https://ivg37-qiaaa-aaaab-aaaga-cai.ic0.app/',
+                logo: 'assets/images/logos/wzq.png',
+                title: '五子棋',
+                desc: 'ivg37-qiaaa-aaaab-aaaga-cai.ic0.app'
             }
         ]
     },
