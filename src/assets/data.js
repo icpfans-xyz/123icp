@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-06-18 11:14:05
+ * @LastEditTime: 2021-06-22 15:47:03
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -38,6 +38,12 @@ export default [
                 title: 'NNS',
                 desc: 'nns.ic0.app'
             },
+            {
+                url: 'https://plugwallet.ooo/',
+                logo: 'assets/images/logos/plug.png',
+                title: 'plugwallet',
+                desc: 'plugwallet.ooo'
+            },
         ]
     },
     {
@@ -62,6 +68,12 @@ export default [
                 logo: 'assets/images/logos/icrocks.png',
                 title: 'ic.rocks',
                 desc: 'ic.rocks'
+            },
+            {
+                url: 'https://www.icpscan.co/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'icpscan',
+                desc: 'icpscan.co'
             },
         ]
     },
@@ -195,6 +207,24 @@ export default [
                 title: 'DfinitySZ',
                 desc: 'twitter.com/DfinityShenZhen'
             },
+            {
+                url: 'https://www.dfinitycommunity.com',
+                logo: 'assets/images/logos/dc.png',
+                title: 'ICPSquad',
+                desc: 'dfinitycommunity.com'
+            },
+            {
+                url: 'https://icp.guide/',
+                logo: 'assets/images/logos/cropped-book-1-85x85.png',
+                title: 'ICPGuide',
+                desc: 'icp.guide'
+            },
+            {
+                url: 'https://icp.guide/',
+                logo: 'assets/images/logos/cropped-book-1-85x85.png',
+                title: 'ICPGuide',
+                desc: 'icp.guide'
+            },
         ]
     },
     {
@@ -215,6 +245,19 @@ export default [
                 desc: 'www.icp.report'
             },
             
+        ]
+    },
+    {
+        name: 'DAO',
+        en_name: 'DAO',
+        icon: 'linecons-diamond',
+        web: [
+            {
+                url: 'https://internetcomputer.org/education',
+                logo: 'assets/images/logos/ICA.png',
+                title: 'Internet Computer Education',
+                desc: 'internetcomputer.org/education'
+            }
         ]
     },
 ]

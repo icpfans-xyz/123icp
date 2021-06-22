@@ -1,5 +1,7 @@
-# webstack
 
+![](https://icp123.org/img/icp123_dark.bd1690c5.png)
+# webstack
+[icp123](https://icp123.org/#/) is a one-stop navigation for the Dfinity ecosystem.
 ## Project setup
 ```
 yarn install
