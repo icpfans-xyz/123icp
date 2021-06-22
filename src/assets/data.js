@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-06-22 15:47:03
+ * @LastEditTime: 2021-06-22 17:03:42
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -43,6 +43,12 @@ export default [
                 logo: 'assets/images/logos/plug.png',
                 title: 'plugwallet',
                 desc: 'plugwallet.ooo'
+            },
+            {
+                url: 'https://www.stoicwallet.com/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'stoicwallet',
+                desc: 'stoicwallet.com'
             },
         ]
     },
@@ -163,6 +169,12 @@ export default [
                 title: 'Fleek',
                 desc: 'fleek.co'
             },
+            {
+                url: 'https://dank.ooo/',
+                logo: 'assets/images/logos/dank.png',
+                title: 'Dank',
+                desc: 'dank.ooo/'
+            },
             
         ]
     },
@@ -218,13 +230,7 @@ export default [
                 logo: 'assets/images/logos/cropped-book-1-85x85.png',
                 title: 'ICPGuide',
                 desc: 'icp.guide'
-            },
-            {
-                url: 'https://icp.guide/',
-                logo: 'assets/images/logos/cropped-book-1-85x85.png',
-                title: 'ICPGuide',
-                desc: 'icp.guide'
-            },
+            }
         ]
     },
     {
@@ -253,11 +259,37 @@ export default [
         icon: 'linecons-diamond',
         web: [
             {
-                url: 'https://internetcomputer.org/education',
-                logo: 'assets/images/logos/ICA.png',
-                title: 'Internet Computer Education',
-                desc: 'internetcomputer.org/education'
+                url: 'https://cycledao.xyz/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'CycleDao',
+                desc: 'cycledao.xyz'
+            },
+
+            {
+                url: 'https://sdk.nnsdao.com/',
+                logo: 'assets/images/logos/nnsdao.png',
+                title: 'NNS Dao',
+                desc: 'sdk.nnsdao.com'
             }
         ]
     },
+    {
+        name: 'Decentralized Social',
+        en_name: 'Decentralized Social',
+        icon: 'linecons-comment',
+        web: [
+            {
+                url: 'https://az5sd-cqaaa-aaaae-aaarq-cai.ic0.app/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'Distrikt',
+                desc: 'az5sd-cqaaa-aaaae-aaarq-cai.ic0.app'
+            },
+            {
+                url: 'https://weact.chat/',
+                logo: 'assets/images/logos/icon-ios-29@3x-1.png',
+                title: 'WeActivism',
+                desc: 'weact.chat'
+            },
+        ]
+    }
 ]
