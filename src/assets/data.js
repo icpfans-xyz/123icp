@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-06-22 17:03:42
+ * @LastEditTime: 2021-06-23 02:30:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -81,6 +81,12 @@ export default [
                 title: 'icpscan',
                 desc: 'icpscan.co'
             },
+            {
+                url: 'https://k7gat-daaaa-aaaae-qaahq-cai.ic0.app/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'Canlista',
+                desc: 'k7gat-daaaa-aaaae-qaahq-cai.ic0.app'
+            },
         ]
     },
     {
@@ -129,7 +135,25 @@ export default [
                 logo: 'assets/images/logos/the wall.jpeg',
                 title: 'THe Wall',
                 desc: 'rivyl-6aaaa-aaaaf-qaapq-cai.raw.ic0.app'
-            }
+            },
+            {
+                url: 'https://qwsdo-xaaaa-aaaah-aaa3a-cai.ic0.app/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: '2048',
+                desc: 'qwsdo-xaaaa-aaaah-aaa3a-cai.ic0.app'
+            },
+            {
+                url: 'https://ykvzc-iaaaa-aaaah-qaaca-cai.raw.ic0.app/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'Guestbook',
+                desc: 'ykvzc-iaaaa-aaaah-qaaca-cai.raw.ic0.app'
+            },
+            {
+                url: 'https://xcxtd-2qaaa-aaaah-qabfa-cai.raw.ic0.app/',
+                logo: 'assets/images/logos/USERGEEK.png',
+                title: 'USERGEEK',
+                desc: 'xcxtd-2qaaa-aaaah-qabfa-cai.raw.ic0.app/'
+            },
         ]
     },
     {
@@ -149,7 +173,54 @@ export default [
                 title: 'DFinance',
                 desc: 'dfinance.ai'
             },
-            
+            {
+                url: 'https://dank.ooo/',
+                logo: 'assets/images/logos/dank.png',
+                title: 'Dank',
+                desc: 'dank.ooo'
+            },
+            {
+                url: 'https://tacen.com/',
+                logo: 'assets/images/logos/logo-upload-1.png',
+                title: 'Tacen',
+                desc: 'tacen.com'
+            },
+            {
+                url: 'https://icpswap.com/',
+                logo: 'assets/images/logos/icpswap.png',
+                title: 'Icpswap',
+                desc: 'icpswap.com'
+            },
+            {
+                url: 'https://infinityswap.one/',
+                logo: 'assets/images/logos/InfinitySwap.png',
+                title: 'Infinityswap',
+                desc: 'infinityswap.one'
+            },
+            {
+                url: 'https://www.enso.finance/',
+                logo: 'assets/images/logos/W6-nVjk5_400x400.png',
+                title: 'EsnoFinance',
+                desc: 'enso.finance'
+            },
+            {
+                url: 'https://dfinance.ai/',
+                logo: 'assets/images/logos/K11vYCtc_400x400.jpeg',
+                title: 'Dfinance',
+                desc: 'dfinance.ai'
+            },
+            {
+                url: 'https://dfistarter.io/',
+                logo: 'assets/images/logos/YDOgUNpP_400x400.jpeg',
+                title: 'Dfistarter',
+                desc: 'dfistarter.io'
+            },
+            {
+                url: 'https://swe7f-zqaaa-aaaaf-qaagq-cai.ic0.app/#/',
+                logo: 'assets/images/logos/AMa525Vd_400x400.jpeg',
+                title: 'Hzld',
+                desc: 'swe7f-zqaaa-aaaaf-qaagq-cai.ic0.app'
+            },
         ]
     },
     {
@@ -170,10 +241,16 @@ export default [
                 desc: 'fleek.co'
             },
             {
-                url: 'https://dank.ooo/',
-                logo: 'assets/images/logos/dank.png',
-                title: 'Dank',
-                desc: 'dank.ooo/'
+                url: 'https://igpeu-waaaa-aaaad-qaava-cai.raw.ic0.app/',
+                logo: 'assets/images/logos/Mo6ElSN4_400x400.jpeg',
+                title: 'Toniq Labs',
+                desc: 'igpeu-waaaa-aaaad-qaava-cai.raw.ic0.app'
+            },
+            {
+                url: 'https://i67uk-hiaaa-aaaae-qaaka-cai.raw.ic0.app/',
+                logo: 'assets/images/logos/dfinity.png',
+                title: 'Sudograph',
+                desc: 'i67uk-hiaaa-aaaae-qaaka-cai.raw.ic0.app'
             },
             
         ]
@@ -289,6 +366,18 @@ export default [
                 logo: 'assets/images/logos/icon-ios-29@3x-1.png',
                 title: 'WeActivism',
                 desc: 'weact.chat'
+            },
+            {
+                url: 'https://canistore.io/',
+                logo: 'assets/images/logos/app-150x150.png',
+                title: 'Canistore',
+                desc: 'canistore.io'
+            },
+            {
+                url: 'https://capsule.social/',
+                logo: 'assets/images/logos/capsule-2.png',
+                title: 'Canistore',
+                desc: 'capsule.social'
             },
         ]
     }
