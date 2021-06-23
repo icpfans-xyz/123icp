@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-06-23 02:30:50
+ * @LastEditTime: 2021-06-23 11:42:56
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -327,6 +327,12 @@ export default [
                 title: 'DFINITY SCAN',
                 desc: 'www.icp.report'
             },
+            {
+                url: 'https://sdk.nnsdao.com/',
+                logo: 'assets/images/logos/nnsdao.png',
+                title: 'NNS Dao',
+                desc: 'sdk.nnsdao.com'
+            }
             
         ]
     },
@@ -341,17 +347,10 @@ export default [
                 title: 'CycleDao',
                 desc: 'cycledao.xyz'
             },
-
-            {
-                url: 'https://sdk.nnsdao.com/',
-                logo: 'assets/images/logos/nnsdao.png',
-                title: 'NNS Dao',
-                desc: 'sdk.nnsdao.com'
-            }
         ]
     },
     {
-        name: 'Decentralized Social',
+        name: '去中心化社交',
         en_name: 'Decentralized Social',
         icon: 'linecons-comment',
         web: [
