@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-06-23 11:42:56
+ * @LastEditTime: 2021-07-02 11:15:48
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -106,12 +106,12 @@ export default [
                 title: 'Open Chat',
                 desc: '7e6iv-biaaa-aaaaf-aaada-cai.ic0.app'
             },
-            {
-                url: 'https://distrikt.app/',
-                logo: 'assets/images/logos/distrikt.png',
-                title: 'Distrikt',
-                desc: 'distrikt.app'
-            },
+            // {
+            //     url: 'https://distrikt.app/',
+            //     logo: 'assets/images/logos/distrikt.png',
+            //     title: 'Distrikt',
+            //     desc: 'distrikt.app'
+            // },
             {
                 url: 'https://github.com/dfinity/cancan',
                 logo: 'assets/images/logos/CanCan.jpg',
@@ -153,6 +153,18 @@ export default [
                 logo: 'assets/images/logos/USERGEEK.png',
                 title: 'USERGEEK',
                 desc: 'xcxtd-2qaaa-aaaah-qabfa-cai.raw.ic0.app/'
+            },
+            {
+                url: 'https://www.agryo.com/',
+                logo: 'assets/images/logos/agryo1_blue.png',
+                title: 'Agryo',
+                desc: 'agryo.com'
+            },
+            {
+                url: 'https://www.origyn.ch/',
+                logo: 'assets/images/logos/origyn.png',
+                title: 'origyn',
+                desc: 'origyn.ch'
             },
         ]
     },
@@ -252,7 +264,6 @@ export default [
                 title: 'Sudograph',
                 desc: 'i67uk-hiaaa-aaaae-qaaka-cai.raw.ic0.app'
             },
-            
         ]
     },
     {
