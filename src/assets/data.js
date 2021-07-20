@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-26 01:21:00
- * @LastEditTime: 2021-07-02 11:15:48
+ * @LastEditTime: 2021-07-21 02:28:48
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /oms-ux/Users/chenglei/work/WebStack-vue/src/assets/data.js
@@ -24,7 +24,7 @@ export default [
                 logo: 'assets/images/logos/ICA.png',
                 title: 'Internet Computer Association',
                 desc: 'internetcomputer.org'
-            },
+            }
         ]
     },
     {
@@ -49,7 +49,7 @@ export default [
                 logo: 'assets/images/logos/dfinity.png',
                 title: 'stoicwallet',
                 desc: 'stoicwallet.com'
-            },
+            }
         ]
     },
     {
@@ -86,7 +86,7 @@ export default [
                 logo: 'assets/images/logos/dfinity.png',
                 title: 'Canlista',
                 desc: 'k7gat-daaaa-aaaae-qaahq-cai.ic0.app'
-            },
+            }
         ]
     },
     {
@@ -106,12 +106,12 @@ export default [
                 title: 'Open Chat',
                 desc: '7e6iv-biaaa-aaaaf-aaada-cai.ic0.app'
             },
-            // {
-            //     url: 'https://distrikt.app/',
-            //     logo: 'assets/images/logos/distrikt.png',
-            //     title: 'Distrikt',
-            //     desc: 'distrikt.app'
-            // },
+            {
+                url: 'https://sygsn-caaaa-aaaaf-qaahq-cai.raw.ic0.app/',
+                logo: 'assets/images/logos/icme.jpg',
+                title: 'ICME',
+                desc: 'sygsn-caaaa-aaaaf-qaahq-cai.raw.ic0.app'
+            },
             {
                 url: 'https://github.com/dfinity/cancan',
                 logo: 'assets/images/logos/CanCan.jpg',
@@ -166,6 +166,12 @@ export default [
                 title: 'origyn',
                 desc: 'origyn.ch'
             },
+            {
+                url: 'https://5nl7c-zqaaa-aaaah-qaa7a-cai.raw.ic0.app/',
+                logo: 'assets/images/logos/SagaTarot.jpg',
+                title: 'Saga Tarot',
+                desc: '5nl7c-zqaaa-aaaah-qaa7a-cai.raw.ic0.app'
+            }
         ]
     },
     {
@@ -232,7 +238,7 @@ export default [
                 logo: 'assets/images/logos/AMa525Vd_400x400.jpeg',
                 title: 'Hzld',
                 desc: 'swe7f-zqaaa-aaaaf-qaagq-cai.ic0.app'
-            },
+            }
         ]
     },
     {
@@ -263,7 +269,7 @@ export default [
                 logo: 'assets/images/logos/dfinity.png',
                 title: 'Sudograph',
                 desc: 'i67uk-hiaaa-aaaae-qaaka-cai.raw.ic0.app'
-            },
+            }
         ]
     },
     {
@@ -344,7 +350,6 @@ export default [
                 title: 'NNS Dao',
                 desc: 'sdk.nnsdao.com'
             }
-            
         ]
     },
     {
@@ -357,7 +362,7 @@ export default [
                 logo: 'assets/images/logos/dfinity.png',
                 title: 'CycleDao',
                 desc: 'cycledao.xyz'
-            },
+            }
         ]
     },
     {
@@ -388,7 +393,7 @@ export default [
                 logo: 'assets/images/logos/capsule-2.png',
                 title: 'Canistore',
                 desc: 'capsule.social'
-            },
+            }
         ]
     }
 ]

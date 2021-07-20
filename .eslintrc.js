@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-11-27 09:42:13
- * @LastEditTime: 2021-06-09 20:34:42
+ * @LastEditTime: 2021-07-21 01:58:14
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /envi-ux/Users/chenglei/work/oms-ux/.eslintrc.js
@@ -13,6 +13,7 @@ module.exports = {
     },
     extends: ['plugin:vue/essential', 'eslint:recommended'],
     rules: {
+        indent: [2, 4],
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         // allow paren-less arrow functions
@@ -35,13 +36,13 @@ module.exports = {
 
         'no-mixed-spaces-and-tabs': [0, 'smart-tabs'], //不强制tab 空格混用
 
-        indent: [
-            'error',
-            4,
-            {
-                SwitchCase: 1
-            }
-        ], //强制一致的缩进风格
+        // indent: [
+        //     'error',
+        //     4,
+        //     {
+        //         SwitchCase: 1
+        //     }
+        // ], //强制一致的缩进风格
 
         'spaced-comment': ['warn', 'always'], //多余的注释发出警告
 
